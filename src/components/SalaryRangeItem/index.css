@@ -1,0 +1,19 @@
+.type-of-employment-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.radio-items {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+}
+.employment-type {
+  color: #f1f5f9;
+  font-size: 13px;
+  font-weight: 500px;
+  margin-left: 5px;
+}

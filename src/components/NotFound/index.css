@@ -1,0 +1,31 @@
+.notfound-section {
+  background-color: #272727;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notfound-heading {
+  color: #f8fafc;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.notfound-text {
+  color: #cbd5e1;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.not-found-image {
+}
+
+@media screen and(max-width:576px) {
+  .notfound-image {
+  }
+  .notfound-heading {
+    font-size: 15px;
+  }
+  .notfound-text {
+    font-size: 10px;
+  }
+}

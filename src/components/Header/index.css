@@ -1,0 +1,79 @@
+.navbar-section {
+  background-color: #202020;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav-options {
+  display: flex;
+  flex-direction: row;
+}
+.nav-website-logo {
+  height: 40px;
+  margin-top: 15px;
+}
+@media screen and (max-width: 576px) {
+  .nav-website-logo {
+    height: 20px;
+  }
+  .nav-option-home {
+    display: none;
+  }
+  .logout-button {
+    display: none;
+  }
+}
+.nav-option-home {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #ffffff;
+}
+.logout-button {
+  background-color: #6366f1;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.mobile-icons-section {
+  display: flex;
+  flex-direction: row;
+}
+.home-icon {
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.link-class {
+  text-decoration: none;
+}
+@media screen and (min-width: 576px) {
+  .home-icon {
+    display: none;
+  }
+  .mobile-icons-section {
+    display: none;
+  }
+  .icon-button {
+    display: none;
+  }
+}
+.list-item {
+  list-style-type: none;
+}
+.icon-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
